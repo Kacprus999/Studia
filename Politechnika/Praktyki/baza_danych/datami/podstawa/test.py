@@ -1,0 +1,74 @@
+line='Author = {Wang, Shuaiwei and Yao, Yin and Peng, Zhilong and Zhang, Bo and Chen,\n   Shaohua\n},'
+iloscand = line.count('and')
+authkey=''
+
+x = line.split("Author = {")
+x = x[1].split(',')
+fn = x[0]
+
+if len(fn) < 4:
+    authkey = fn
+else:
+    nfn =''
+    nfn += fn[0:3]
+    authkey += nfn
+
+if iloscand < 1:
+    print(authkey)
+if iloscand == 1:
+    sn = x[1]
+    sn = sn.strip()
+    sn = sn.split(' and ')
+    sn = sn[1]
+    if len(sn) < 4:
+        authkey += sn
+    else:
+        nsn =''
+        nsn += sn[0:3]
+        authkey += nsn
+        print(authkey)
+if iloscand == 2:
+    sn = x[1]
+    sn = sn.strip()
+    sn = sn.split(' and ')
+    sn = sn[1]
+    if len(sn) < 4:
+        authkey += sn
+    else:
+        nsn =''
+        nsn += sn[0:3]
+        authkey += nsn
+    tn = x[2]
+    tn = tn.strip()
+    tn = tn.split(' and ')
+    tn = tn[1]
+    if len(tn) < 4:
+        authkey += tn
+    else:
+        ntn =''
+        ntn += tn[0:3]
+        authkey += ntn
+    print(authkey)
+if iloscand > 2:
+    sn = x[1]
+    sn = sn.strip()
+    sn = sn.split(' and ')
+    sn = sn[1]
+    if len(sn) < 4:
+        authkey += sn
+    else:
+        nsn =''
+        nsn += sn[0:3]
+        authkey += nsn
+    tn = x[2]
+    tn = tn.strip()
+    tn = tn.split(' and ')
+    tn = tn[1]
+    if len(tn) < 4:
+        authkey += tn
+    else:
+        ntn =''
+        ntn += tn[0:3]
+        authkey += ntn
+        authkey+='ETAL'
+    print(authkey)

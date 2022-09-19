@@ -1,0 +1,43 @@
+ZASADY:
+
+* Artykuł [@article]
+- pierwsze 3 litery nazwiska(do 3 autorów), później ETAL [Author]
+- rok (4 cyfry) [Year]
+- Pierwsze litery (wielkie) każdego słowa nazwy czasopisma (and/&/of/with małe a) lub jeśli nazwa jednoczłonowa 4 pierwsze litery(pierwsza duza reszta mała) , lub jeśli 2 członowa to 2 litery (pierwsza duza reszta mała) [Journal]
+- nr artykułu/pierwsza strona [Article-Number/Pages]
+
+* Książka [@inproceedings/incollection]
+- pierwsze 3 litery nazwiska(do 3 autorów), później ETAL
+- rok (4 cyfry)
+- BOOK
+- Pierwsze litery (wielkie) każdego słowa nazwy książki (and/&/of/with małe) lub jeśli nazwa jednoczłonowa 4 pierwsze litery (pierwsza duza reszta mała), lub jeśli 2 członowa to 2 litery (pierwsza duza reszta mała)
+- nr artykułu/pierwsza strona
+
+
+Specjalne przypadki:
+nazwisko z apostrofem: ignorujemy literę przed apostrofem, korzystamy z 3 po apostrofie
+nazwy czasopism z myślnikami - myślnik traktujemy jak spację
+nieopublikowane artykuły: data ma format miesiąc rok pod postacią np. JUL 2021 [Early Access Date]
+
+-----------------
+Regexy: 
+poczatek rekordu: ('@.*')
+klucz domyslny: ('WOS:[0-9]{1,20}')
+author: ('Author = \{[a-zA-Z0-9_\-,\.\'\\ \n]*\}')
+jorunal: ('Journal = \{\{[a-zA-Z0-9_\-,\.\'\\ \n]*\}\}')
+year: ('Year = \{\{[0-9][0-9][0-9][0-9]\}\}')
+Article-number: ('Article-Number = \{\{[0-9]*\}\}')
+Early Access Date: ('Article-Number = \{\{[a-zA-Z0-9 ]*\}\}')
+Pages: ('Pages = \{\{[0-9\-]*\}\}')
+kończący rekord: if line == "\n": 
+
+@inproceedings
+@incollection
+
+
+booktitle ograniczyc
+bookgroupauthor ogarnac - dodac wasauthor do piojedynczego
+p-pages
+a-artcile
+incollection
+re.sub pododawac do ksiazek

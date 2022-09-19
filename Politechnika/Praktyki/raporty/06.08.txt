@@ -1,0 +1,10 @@
+
+dzisiaj zacząłem przeszukiwać bazę web of science, dokładnie przeczytałem 2 artykuły oraz kilka kolejnych wyglądających ciekawie dodałem do listy do przeczytania później.
+2 artykuły sortowane po najwiekszej licznie cytowań, z którymi sie dzisiaj zapoznałem:
+
+2007 rok, 274 cytowań, auxetic material, A Alderson, K L Alderson - zastosowanie w lotnictwie szerokopojętym, zalety aukstetyków w budowie samolotów/helikopterów. Zastosowanie struktury plastra miodu oraz jego wariacji, a także formy piany, kompozytów wzmocnionych włóknami, polimerów, w sensorach i elementach wykonawczych z użyciem efektu piezoeletrycznego.
+
+2014 rok, 432 cytowania, Negative poisson's ratio in single-layer black phosphorus, Jiang, JW; Park, HS - jednowarstwowa, 2 wymiarowa struktura która ma negatywny współczynnik poissona - black phosphorus.
+
+Z LaTexem lekko się już zapoznałem na studiach, dzisiaj przypomniałem sobie trochę na podstawie template academic journal
+

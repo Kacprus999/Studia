@@ -1,0 +1,17 @@
+Slajd 1
+
+Przedstawienie tematu; prowadzący
+
+Slajd 2
+
+Spis treści; 
+
+Slajd 3
+
+tekst na slajdzie; 
+
+Metoda została opracowana i pierwszy raz zastosowana przez Stanisława Ulama.
+
+można oblicz
+
+ Co więcej, ponieważ rozmiar zmiennych reprezentujących wewnętrzny stan generatora jest ograniczony (zwykle decyzją programisty, do kilkudziesięciu lub kilkuset bitów; a rzadziej, po prostu rozmiarem pamięci komputera), i ponieważ w związku z tym może on znajdować się tylko w ograniczonej liczbie stanów, bez dostarczania nowych danych z zewnątrz musi po jakimś czasie dokonać pełnego cyklu i zacząć generować te same wartości. Teoretyczny limit długości cyklu wyrażony jest przez 2^{n}, gdzie n to liczba bitów przeznaczonych na przechowywanie stanu wewnętrznego. W praktyce, większość generatorów ma znacznie krótsze okresy

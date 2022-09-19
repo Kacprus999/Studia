@@ -1,0 +1,16 @@
+@article{VibJiLuYe
+author={Ji, J. C.; Luo, Quantian; Ye, Kan}
+title={Vibration control based metamaterials and origami structures: A state-of-the-art review}
+journal={MECHANICAL SYSTEMS AND SIGNAL PROCESSING}
+year={2021}
+month={dec}
+}
+
+[1]  JiLuoYe2021MSaSP107945 ,
+
+[2] WanYaoPenETAL2021Nano415705 ,
+[3] SheXia2021CoSt114066 ,
+
+[4] Lim2015BookAMaS
+[5] HuZhaLiu2019BookAT
+[6] Lim2020BookMoMwNP
