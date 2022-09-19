@@ -1,0 +1,100 @@
+C:\Program Files\Autodesk\AdODIS\V1\Setup\ui\resources\ui\img\icons\maximize.svg
+C:\Program Files\Autodesk\DWG TrueView 2022 - English\OGSDeviceDX11.dll
+C:\Program Files\Azure Data Studio\resources\app\extensions\Microsoft.sqlservernotebook\books\sqlserver2019\content\log-analyzers\tsg031-get-polybase-logs-for-all-pods.ipynb
+C:\Program Files\Azure Data Studio\resources\app\extensions\notebook\resources\dark\packages_inverse.svg
+C:\Program Files\dotnet\sdk\5.0.202\DotnetTools\dotnet-watch\5.0.202-servicing.21201.17\tools\net5.0\any\ru
+C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.27\api-ms-win-core-synch-l1-2-0.dll
+C:\Program Files\GIMP 2\etc\fonts\conf.d\90-synthetic.conf
+C:\Program Files\GIMP 2\share\gimp\2.0\icons\Color\24x24\apps\gimp-prefs-folders-patterns.svg
+C:\Program Files\GIMP 2\share\mypaint-data\1.0\brushes\kaerhon_v1\ink_slow_s.myb
+C:\Program Files\Git\mingw64\lib\tcl8.6\tzdata\Africa\Cairo
+C:\Program Files\Git\usr\lib\perl5\core_perl\encoding.pm
+C:\Program Files\MySQL\MySQL Shell 8.0\lib\Python3.9\Lib\__pycache__\functools.cpython-39.pyc
+C:\Program Files\obs-studio\data\obs-studio\themes\Acri\checkbox_checked.png
+C:\Program Files\obs-studio\obs-plugins\64bit\v8_context_snapshot.bin
+C:\Program Files\SteelSeries\GG\driver\Win8\amd64\sssmbus.cat
+C:\Program Files\WindowsApps\18793CreativeAssemblyLtd.TotalWarWarhammerIII_1.0.524.0_x64__ry6v8xxqmygx8\data\audio_base_2.pack
+C:\Program Files\WindowsApps\CoatsinkSoftware.PHOGS_1.0.37.0_x64__kpgqqsxtm9288\PHOGS!_Data\GI\level21\2c\2c693918f508b19a37da24996bd1367b.iws.sse
+C:\Program Files\WindowsApps\Microsoft.624F8B84B80_3.444.438.0_x64__8wekyb3d8bbwe\media\audio\modularcars\POR_718CaymanGTS_18-Engine.xml
+C:\Program Files\WindowsApps\Microsoft.624F8B84B80_3.444.438.0_x64__8wekyb3d8bbwe\media\physics\suspension\OffroadWishboneTruck.xml
+C:\Program Files\WindowsApps\Microsoft.LanguageExperiencePackpl-PL_19041.41.120.0_neutral__8wekyb3d8bbwe\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy\pris
+C:\Program Files\WindowsApps\Microsoft.MSPaint_6.2009.30067.0_x64__8wekyb3d8bbwe\PaintStudio.winmd
+C:\Program Files\WindowsApps\Microsoft.SeaofThieves_2.107.5591.2_x64__8wekyb3d8bbwe\Athena\Content\Paks\Core_80669eb8-70fb-4cde-b786-779365ba4397-UWP64.pak
+C:\Program Files\WindowsApps\Microsoft.SeaofThieves_2.107.5591.2_x64__8wekyb3d8bbwe\Athena\Content\Paks\Core_af57d9b3-06d4-4721-b937-b86b25a07eff-UWP64_P24.pak
+C:\Program Files\WindowsApps\Microsoft.WindowsCamera_2021.105.10.0_neutral_split.scale-125_8wekyb3d8bbwe\Assets\contrast-white\CameraSmallTile.scale-125.png
+C:\Program Files (x86)\Common Files\Autodesk Shared\Adlm\R23\lmubase.dll
+C:\Program Files (x86)\Common Files\Microsoft Shared\MSDesigners8\msddsf.dll
+C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.5\zh-Hans\WindowsBase.resources.dll
+C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\runtime.any.System.Globalization\4.0.11\lib\MonoAndroid10
+C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\System.IO.Compression.clrcompression-arm\4.0.0\runtimes
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\1.7.6\tools\x64\ilc\tools\tr\Gatekeeper.Engine.resources.dll
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.universalwindowsplatform\6.2.11\ref\uap10.0.15138\System.Transactions.Local.dll
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.ServicePoint.dll
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.11\runtimes\win10-x64\lib\uap10.0.15138\System.Diagnostics.DiagnosticSource.dll
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\system.runtime\4.1.0\ref\netstandard1.5\ru\System.Runtime.xml
+C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\system.xml.readerwriter\4.0.11\lib\net45\_._
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\x86\ret\ILTransformed\System.Reflection.Extensions.ildll
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.Frameworks.dll
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\1ohclqme.4zs\images\StorageExplorer\ASX_ArrowLeft.svg
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\1ohclqme.4zs\js\Providers\CloudExplorer\Producers\host.ru.resjson
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\1ohclqme.4zs\lib\jQuery-contextMenu\dist\host.de.resjson
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Python\Miniconda\Miniconda3-x64\Library\include\openssl\mdc2.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\SQLDB\Items\TextTemplateSql.vstemplate
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ProjectTemplates\CSharp\Windows UAP\1033\OptionalPackage\StoreLogo.png
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\Linux\include\usr\include\c++\5\bits\stl_deque.h
+d:\$RECYCLE.BIN\S-1-5-21-3790516987-2666254506-1958514076-1001\$RDFIGL3\doctrees\c_api\rect.doctree
+d:\$RECYCLE.BIN\S-1-5-21-3790516987-2666254506-1958514076-1001\$RPS655W\sem 2\Notatki Oli\Mechanika - wyk\DSC_0992.JPG
+d:\1Koronalia\uniwerek\sem2\TI\spa\XY\node_modules\@angular\core\esm2015\src\render3\styling
+d:\1Koronalia\uniwerek\sem2\TI\spa\XY\node_modules\@angular\material\esm2015\paginator\testing\index.js
+d:\1Koronalia\uniwerek\sem2\TI\spa\XY\node_modules\@schematics\angular\migrations\update-9\update-dependencies.js
+d:\1Koronalia\uniwerek\sem2\TI\spa\XY\node_modules\ajv\lib\vocabularies\applicator\propertyNames.ts
+d:\1Koronalia\uniwerek\sem2\TI\spa\XY\node_modules\webpack-dev-middleware\node_modules\ajv\lib\dotjs
+f:\CodeBlocks\MinGW\opt\lib\terminfo\74\trs2
+f:\CodeBlocks\MinGW\opt\share\terminfo\77\wyse350-w
+f:\CodeBlocks\MinGW\x86_64-w64-mingw32\include\magnification.h
+f:\Epic Games\Epic Games\Launcher\Engine\Binaries\ThirdParty\CEF3\Win64\libEGL.dll
+f:\Epic Games\Epic Games\Launcher\Engine\Content\Internationalization\icudt53l\zone\en_BM.res
+f:\Epic Games\Launcher\Engine\Content\Internationalization\icudt53l\curr\fr_CA.res
+f:\Epic Games\Launcher\Engine\Content\Internationalization\icudt53l\zone\kk_Cyrl_KZ.res
+f:\Epic Games\Launcher\Engine\Plugins\Messaging\MessagingDebugger\Content\icon_tab_MessagingDebugger_16x.png
+f:\KiCad\share\kicad\library\MCU_Microchip_8051.dcm
+f:\KiCad\share\kicad\modules\Connector_PinHeader_2.54mm.pretty\PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right.kicad_mod
+f:\KiCad\share\kicad\modules\packages3d\Button_Switch_SMD.3dshapes\SW_DIP_SPSTx09_Slide_6.7x24.42mm_W8.61mm_P2.54mm_LowProfile.wrl
+f:\KiCad\share\kicad\modules\Package_BGA.pretty\XFBGA-36_3.5x3.5mm_Layout6x6_P0.5mm.kicad_mod
+f:\LaTex\fonts\afm\public\amsfonts\euler\eurb5.afm
+f:\LaTex\fonts\type1\public\amsfonts\cmextra\cmmib5.pfb
+f:\LaTex\tex\generic\tex4ht\authblk.4ht
+f:\LTspice\examples\jigs\1376.asc
+f:\LTspice\lib\sub\LTC2913-2.sub
+f:\LTspice\lib\sym\PowerProducts\ADP5138-2.asy
+f:\mingw64\mingw32\opt\lib\terminfo\50\P8
+f:\pgadminv5\python\Lib\site-packages\Flask_Mail-0.9.1.dist-info
+f:\pgadminv5\web\pgadmin\tools\maintenance\static\js\maintenance.js
+f:\Python\Lib\idlelib\idle_test\htest.py
+f:\Python\Lib\site-packages\pip\_internal\resolution\resolvelib\requirements.py
+f:\Python\Lib\test\cjkencodings\gb18030.txt
+f:\xampp\perl\lib\Pod\Perldoc\ToText.pm
+f:\xampp\perl\vendor\lib\auto\Pod\LaTeX
+f:\xampp\perl\vendor\lib\Moose\Util\TypeConstraints
+f:\xampp\php\pear\PHP\CompatInfo\openssl_const_array.php
+f:\xampp\phpMyAdmin\themes\metro\img\b_docs.png
+f:\xampp\phpMyAdmin\themes\original\img\bd_unique.png
+g:\BombSquad_Windows_1.6.0\ba_data\textures\achievementDualWielding.dds
+g:\ea\ItTakesTwo\Nuts\Script\Vino\Interactions\DoubleInteractComponent.as
+g:\Riot Games\League of Legends\Game\DATA\FINAL\Champions\Maokai.en_US.wad.client
+g:\Riot Games\VALORANT\live\ShooterGame\Content\Paks\pakchunk104_s5-WindowsClient.sig
+g:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials\panorama\images\icons\xp\level1239.png
+g:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\sound\quake\standard
+g:\SteamLibrary\steamapps\common\Duck Game\Content\rhythmBar.xnb
+g:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content\materials\models\de_dust\dome_01\dome_small3.vmt
+g:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content\models\props\de_inferno\flower_barrel_p4.vvd
+g:\SteamLibrary\steamapps\common\Muck\MonoBleedingEdge\etc\mono\2.0\settings.map
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack\games\Drawful\content\prompts\17748
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 3\games\AwShirt\content\AwShirtDrawings\356\data.jet
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 3\games\TriviaDeath\content\TDQuestion\32566
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 4\games\Fibbage3\content\fibbagespecial\43479\570565_1.png
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 5\games\YDKJ2018\content\YDKJGibberish\51870\741330_1.ogg
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 5\games\YDKJ2018\content\YDKJShortie\51938\742236_1.ogg
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 5\games\YDKJ2018\content\YDKJShortie\52871\756013_1.ogg
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 6\games\TriviaDeath2\content\TDFinalRound\55197\782615_1.ogg
+g:\SteamLibrary\steamapps\common\The Jackbox Party Pack 6\games\TriviaDeath2\TalkshowExport\project\media\324407.ogg
