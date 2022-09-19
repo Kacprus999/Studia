@@ -1,0 +1,10 @@
+1. TTTNN ciąg stopni MT
+2. NTNTN Prufer GA
+3. TTNTN macierz przyległości MT
+4. TNNNT kolorowania SA 
+5. TNTNT bfs GA
+6. TNTNT planarne JJ
+7. TNTNN izomorfizm JJ
+8. TTTNN drzewa/lasy SA
+9. NNNTT Euler/Hamilton KT
+10. TNTNN Kruskal KT

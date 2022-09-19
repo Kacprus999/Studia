@@ -1,0 +1,22 @@
+{%extends 'base.html' %}
+{%block content%}
+
+<h1> Strona domowa </h1>
+  {% for item in all %}
+	{% if item.isDeleted == False %}
+		<strong> Login: {{item.login}} </strong> <br>
+		First name: {{item.fname}} <br>
+		Last name: {{item.lname}} <br>
+		Email: {{item.email}} <br>
+		Role id: {{item.role_id}} <br>
+		IsDeleted: {{item.isDeleted}} <br><br>
+		<hr>
+	{% endif %}
+{% endfor %}
+{% if all.has_previous %}
+<a href="{% url 'home' %}?page={{all.previous_page_number}}"> Prev </a>
+{% endif %}
+{% if all.has_next %}
+<a href="{% url 'home' %}?page={{all.next_page_number}}"> Next </a>
+{% endif %}
+{%endblock%}
