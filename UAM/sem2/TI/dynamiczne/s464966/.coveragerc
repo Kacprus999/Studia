@@ -1,0 +1,3 @@
+[run]
+source = s464966
+omit = s464966/test*

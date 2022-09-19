@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form handling demo</title>
+  <script src="http://code.jquery.com/jquery-3.3.1.slim.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+          {% for key in request.session.keys() %}
+              <p>{{ key }}: {{ request.session[key] }} <a href="{{ request.route_url('delete', key=key)}}">Delete</a></p>
+          {% endfor %}
+        <form action="{{ request.route_url('form') }}" method="POST" name="form" id="form">
+          <div class="form-group">
+            <label for="key">Key:</label>
+            <input type="text" class="form-control{% if error and 'key' in error %} is-invalid{% endif %}" id="key" name="key" placeholder="Enter key" required {% if values and 'key' in values %}value="{{ values['key'] }}"{% endif %}>
+            {% if error and 'key' in error %}<div class="invalid-feedback">{{ error['key'][0] }}</div>{% endif %}
+            <small id="keyHelp" class="form-text text-muted">The key you want to add to the store.</small>
+          </div>
+          <div class="form-group">
+            <label for="payload">Payload:</label>
+            <input type="text" class="form-control{% if error and 'payload' in error %} is-invalid{% endif %}" id="payload" name="payload" placeholder="Payload" required {% if values and 'key' in values %}value="{{ values['payload'] }}"{% endif %}>
+            {% if error and 'payload' in error %}<div class="invalid-feedback">{{ error['payload'][0] }}</div>{% endif %}
+            <small id="keyHelp" class="form-text text-muted">Corresponding value.</small>
+          </div>
+          {% if error and '_schema' in error %}<div class="alert alert-danger">{{ error['_schema'][0] }}</div>{% endif %}
+          <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
