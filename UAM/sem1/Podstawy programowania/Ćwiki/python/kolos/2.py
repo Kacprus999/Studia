@@ -1,0 +1,18 @@
+print("Podaj lancuch znakow")
+tekst = input()
+print("Podaj na ktorym miejscu podmienic znak")
+klucz = int(input())
+while klucz > len(tekst):
+    print("klucz jest za duzy, podaj nowy")
+    klucz = int(input())
+print("Podaj na jaki znak ma byc podmienione")
+znak=input()
+plik = open('odpowiedzi.txt','a')
+print(tekst)
+plik.write(tekst)
+plik.write('\n')
+tekst2 = tekst[:klucz] + znak + tekst[klucz+1:]
+print(tekst2)
+plik.write(tekst2)
+plik.write('\n\n')
+plik.close()

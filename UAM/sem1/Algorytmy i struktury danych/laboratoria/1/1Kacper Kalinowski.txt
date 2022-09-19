@@ -1,0 +1,52 @@
+Zadanie domowe, poniedziałek,19.10.2020
+
+Kacper Kalinowski
+
+ZD.1
+x=x-y
+y=x+y
+x=y-x
+
+ZD.2
+a)
+jesli m>n to
+	rob
+		m=m-n
+	dopoki	m>=n
+	pisz "reszta to: " m
+lub jesli n>m to
+	rob
+		n=n-m
+	dopoki	n>=m
+	pisz "reszta to: " n
+
+
+b)
+i=1
+jesli m>n to
+	rob
+		m=m-n
+		i+=1
+	dopoki	m>n
+	pisz "iloraz całkowity to: "i 
+lub jesli n>m to
+	rob
+		n=n-m
+		i+=1
+	dopoki	n>m
+	pisz "iloraz całkowity to: "i 
+
+
+ZD.3
+p=(a+b+c)/2
+S=sqrt(p*(p-a)*(p-b)(p-c))
+
+ZD.4
+delta = (b*b)-(4*a*c)
+jesli (delta > 0)to
+	x1 = (-b-sqrt(delta))/2*a
+	x2 = (-b+sqrt(delta))/2*a
+albo jesli (delta == 0) to
+	x = (-b)/(2*a)
+albo jesli (delta<0) to
+	pisz "nie ma rozwiazan rzeczywistych"

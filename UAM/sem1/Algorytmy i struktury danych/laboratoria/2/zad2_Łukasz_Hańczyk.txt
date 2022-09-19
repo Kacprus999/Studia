@@ -1,0 +1,63 @@
+ZD. 1. Dla danej liczby n wypisz sumê dzielników w³aœciwych tej liczby
+
+SUMA_DZIEL_WLASCIWYCH(n)
+	suma = 0
+	for i = 1 to n-1
+		do if n mod i == 0
+			then suma=suma+i
+	return suma
+
+ZD. 2. W danej tablicy znajdŸ elementy najmniejszy i najwiêkszy, wykorzystuj¹c tylko jedno przejœcie przez elementy tablicy.
+
+NAJWIEKSZY_I_NAJMNEIJESZY(A[1..n])
+	najw = A[1]
+	najm = A[1]
+	for i=2 to n
+		do if najw < A[i]
+			then najw = A[i]
+		   if najm > A[i]
+			then najm = A[i]
+	return najw,najm
+
+ZD. 3. SprawdŸ czy w danej tablicy znajduje siê element x przy za³o¿eniu ¿e tablica jest uporz¹dkowana.
+
+- wersja rekurencyjna
+BINARY_SEARCH(A[1..n], x)
+	if A[n div 2] == x
+		then return true
+		else if n >1 
+			then if A[n div 2] > x
+			     	then return BINARY_SEARCH(A[1..(n div 2)])
+			     	else return BINARY_SEARCH(A[(n div 2)+1..n])
+	return false
+
+-wersja z pêtl¹
+BINARY_SEARCH(A[1..n], x)
+	low = 1
+	high = n-1
+	while low <= high
+		do mid = (low+high) div 2
+		   if A[mid] > x
+		 	then high = mid
+		   if A[mid] < x
+			then low = mid+1
+		   if A[mid] == x
+			then return true
+	return false
+
+ZD. 4. Wypisz n-t¹ liczbê Fibonacci'ego nie korzystaj¹c z tablicy.
+(je¿eli przyjmujemy ¿e pierwsz¹ liczb¹ jest 0)
+
+LICZBA_FIB(n)
+	fib = 0
+	l1 = 0
+	l2 = 1
+	if n == 1
+		then return 0
+	if n == 2
+		then return 1
+	for i = 3 to n
+		do fib = l1 + l2
+		   l1 = l2
+		   l2 = fib
+	return fib

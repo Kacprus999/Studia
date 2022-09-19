@@ -1,0 +1,35 @@
+Zadanie 1
+
+	Horner(){
+
+
+
+	}
+
+Zadanie 2
+	read n,k
+	function Newton(n,k){
+		if(k==n || k==0 )then
+			return 1
+		else then
+			return Newton(n-1,k-1) + Newton(n-1,k)
+	}
+
+Zadanie 3
+	read A[1..p],dl=p,x=A[p]
+	function Naj(A[1..p],dl,x){	
+
+		if(dl=1)then
+			return x
+		else then
+			if (x>A[dl-1])then
+				dl--
+				return Naj(A[1..p],dl,x)
+			else then
+				x = A[dl-1]
+				dl--
+				return Naj(A[1..p],dl,x)
+				
+	}
+	
+Zadanie 4

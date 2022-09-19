@@ -1,0 +1,9 @@
+Zadanie 1
+	read n,wsp[0..n],x0
+	function horner(wsp[0..n],x0,n){
+		read wynik = wsp[0]
+		for i=1 to n do
+			wynik = wynik*x0 + wsp[i]
+		return wynik
+	}
+Pozostałych zadań mieliśmy na razie nie robić

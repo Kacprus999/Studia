@@ -1,0 +1,27 @@
+
+ZADANIE 3
+
+zad2
+procedure LIST_INSERT(L,x,k)
+   i=0
+   a=L.head
+   while(a<>NIL) do
+      if(i==k)then
+         LIST_INSERT(L,x)
+      a=a.next
+      i+=1
+   return
+ 
+
+zad3
+procedure LIST_TAIL_INSERT(L,x)
+   x.next=NIL
+   x.prev=L.tail
+   L.tail=x
+   L.count=L.count+1
+
+   if(x.prev <> NIL)then 
+      x.prev.next=x
+   else L.head=x
+
+   return

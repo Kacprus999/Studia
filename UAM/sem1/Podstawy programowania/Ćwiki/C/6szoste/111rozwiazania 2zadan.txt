@@ -1,0 +1,19 @@
+Zadanie L - L-Men
+Statystyki:WA  CE  RV  PE  TLE  MLE RE OLE ACC  Łącznie
+75 0  0  0  2  0  3  0  20  101
+Pierwsze wykonanie: 05.12.2015 11:06:44  'Warsaw Velociraptors'
+Krótki opis: Mamy dany zbiór punktów. Jeden z nich zostaje wyróżniony (pozycja Xaviera w zadaniu). Należało znaleźć minimalną liczbę punktów takich, że gdy usuniemy je z naszego zbioru, to wyróżniony punkt znajdzie się poza otoczką wypukłą rozpiętą na pozostałych punktach na makiecie.
+Rozwiązanie: Przedstawiony problem możemy sprowadzić do następującego. Mając zbiór punktów na płaszczyźnie oraz jeden wyróżniony punkt X chcemy znaleźć prostą przechodzącą przez ten punkt w taki sposób, aby po jednej jej stronie znalazła się minimalna liczba punktów. Można na to patrzeć jak na problem podziału przestrzeni na dwie podprzestrzenie w ten sposób, aby w jednej z nich znalazło się jak najmniej punktów. Algorytmicznie znalezienie takiego podziału sprowadza się do posortowania kątowo wszystkich punktów względem wyróżnionej pozycji X=(x_1,x_2) (np. badamy dla każdego punktu Y kąt między wektorem [x_1,x_2] a [y_1-x_1, y_2-x_2]). Na początku łączymy prostą punkt X z pierwszym punktem na liście i obliczamy liczbę punktów po jej lewej i prawej stronie. Następnie po kolei łączymy X z kolejnymi punktami na liście. Przechodząc od jednego punktu do drugiego musimy aktualizować liczby punktów po obu stronach prostej i wyszukiwać minimum. Czas działania algorytmy to O(nlogn).
+
+
+
+Opis rozwiązań zadań rozpoczynamy od zadania 
+                  F - Fenomenalny Człowiek-Student
+WA  CE  RV  PE  TLE  MLE RE  OLE ACC  Łącznie
+137  4  0  0  12  6  2  0  121           282
+Pierwsze wykonanie:  05.12.2015 09:29:21 UWr Blok Ekipa
+Krótki opis: Zadanie polegało na przebiciu się przez barwną treść i obliczenie wartości ciągu podobnego do (uogólnionego) ciągu Fibonacciego.
+Rozwiązanie: Wpierw należało zauważyć, że stojąc na górze schodów możemy spaść na dowolny z k niższych stopni. Na każdy kolejny o numerze > k można dotrzeć z dowolnego z k poprzednich. Wartością pierwszych k wyrazów ciągu jest więc 1 i suma wszystkich poprzednich, a dla pozostałych, i-ty wyrazu ciągu jest sumą wartości k poprzednich. Trzeba też zauważyć, że długość maksymalnego upadku może być większa od wysokości schodów. Limity zadaniu do 40 i 20 dla odpowiednio liczby schodków i maksymalnej wysokości upadku, wartości zatem mieszczą się w liczbach 64-bitowych bez znaku (unsigned long long w C++).
+
+
+

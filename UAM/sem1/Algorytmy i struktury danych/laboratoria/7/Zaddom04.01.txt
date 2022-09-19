@@ -1,0 +1,21 @@
+procedure flip(S){
+    S1.top = 0
+    S2.top = 0
+
+    while not(STACK_EMPTY(S)) do
+        PUSH(S1,POP(S))
+    while not(STACK_EMPTY(S1)) do
+        PUSH(S2,POP(S1))
+    while not(STACK_EMPTY(S2)) do
+        PUSH(S,POP(S2))
+}
+
+
+
+function najw(S){
+    x = S[S.top]
+    while not(STACK_EMPTY(S)) do
+        b=POP(S)
+        if(x<b)
+            x = b
+}

@@ -1,0 +1,39 @@
+MIN_HEAPIFY (A, i)
+left = 2*i    
+right = 2*i + 1
+if (left <= A.heap-size)and (A[left] < A[i])
+then smallest = left
+else smallest = i
+if (right <= A.heap-size)and (A[right] < A[smallest])
+then smallest = right 
+if smallest <> i 
+then A[i] <-> A[smallest]
+	MIN_HEAPIFY(A, smallest)
+return
+
+
+MIN_HEAP_INSERT (A, key)
+A.heap-size = A.heap-size + 1
+A[A.heap-size] = nieskonczonosc
+HEAP-INCREASE-KEY(A,A.heap-size,key)
+return
+
+HEAP_MINIMUM(A)
+return A[1]
+
+
+HEAP_EXTRACT_MIN (A)
+if A.heap-size < 1
+	then write"Kopiec pusty"
+min = A[1]
+A[1] = A[A.heap-size]
+A.heap-size = A.heap-size -1
+MIN_HEAPIFY (A, 1)
+return min
+
+
+BUILD_MIN_HEAP (A)
+A.heap-size = A.length
+for i = floor(A.length/2) downto 1 
+	do MIN_HEAPIFY(A, i)
+return

@@ -1,0 +1,22 @@
+ZADANIE 1
+a) REKURENCYJNY_WSPOLCZYNNIK_NEWTONA
+function B(i,j)
+	if (j>=0) && (i>=j) 
+		then if (j==0) || (i==j)
+		      then return 1
+		     else return B(i-1,j-1)+B(i-1,j)
+	else write "Blad danych"
+
+b) REKURENCYJNE_MAX_TABLICY
+function MAX(l,p,A[l..p])
+	max=A[l]
+	if (p==l)
+	   then return max;
+	else 
+	   k=(l+p) div 2
+	   if (A[l]>max)
+		then  max=A[l]
+	   if(MAX(l,k,A[l..k])>MAX(k+1,p,A[k+1..p])
+		then  max=MAX(l,k,A[l..k])
+	   else max=MAX(k+1,p,A[k+1..p])
+
