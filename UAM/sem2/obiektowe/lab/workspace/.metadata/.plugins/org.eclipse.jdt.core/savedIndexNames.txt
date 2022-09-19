@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+D:\1Koronalia\uniwerek\sem 2\obiektowe\lab\workspace\.metadata\.plugins\org.eclipse.jdt.core
+68139777.index
+1259207542.index
+87111012.index
+1076304864.index
+1756996119.index
